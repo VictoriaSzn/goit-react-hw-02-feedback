@@ -1,17 +1,11 @@
-.btn_center{
-    margin-right: 30px;
-    margin-left: 30px;
-    /* height: 40px;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 24px;
+.btn_list{
+    display: flex;
+    column-gap: 30px;
     border-radius: 5px;
     text-align: center;
-    justify-content: center; */
-
+    justify-content: center;
 }
-.btn,
-.btn_center {
+.btn{
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
@@ -24,13 +18,10 @@
    
     border-radius: 5px;
     cursor: pointer;
-    
 }
 
 .btn:hover,
-.btn:focus,
-.btn_center:hover,
-.btn_center:focus {
+.btn:focus{
     background-color: gray;
     color: beige;
 }
